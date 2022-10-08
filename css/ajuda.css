@@ -1,0 +1,43 @@
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+     
+
+
+.duvida{
+
+
+  color: rgb(192, 52, 52);
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+
+.duvida-p{
+
+
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.col-pagamento{
+
+  margin: auto;
+  padding-top: 10px;
+}
+
+
+.area-duvida{
+
+  height: 150px;
+}
+
+
+.esta-em-duvida{
+
+  display: flex;
+}
