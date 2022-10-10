@@ -21,8 +21,8 @@
             echo "<td>".$valor['CodCliente']."</td>";
             echo "<td>".$valor['Nome']."</td>";
             echo "<td>";
-           echo "<a href=Editar.php?id={$valor['CodCliente']} class='btn btn-defaul left-margin'>Atualizar</a>";
-         
+           echo "<a style=margin-right: 3px; href=Editar.php?id={$valor['CodCliente']} class='btn btn-defaul left-margin'>Atualizar</a>";
+           echo "<a href=Excluir.php?id={$valor['CodCliente']} class='delete-object'>Excluir</a>";
         echo "</td>";
 
                 echo "</tr>";

@@ -17,7 +17,6 @@ class Cliente {
 
        public $RG;
 
-       public $table = "cliente";
 
 
        public $Telefone;
@@ -48,18 +47,19 @@ class Cliente {
 
      public  function Atualizar(){
               echo "Atualizar dados<br>";
-              echo "<br>codigo=".$this->CodCliente;
-              echo "<br>nome=".$this->Nome;
+              echo "<br>CodCliente=".$this->CodCliente;
+              echo "<br>Nome=".$this->Nome;
 		$query="UPDATE cliente SET Nome=? WHERE CodCliente=?";
 		$stmt=$this->Conn->prepare($query);
 		$stmt->bindParam(1,$this->Nome);
               
 		$stmt->bindParam(2,$this->CodCliente);
-
-		if($stmt->execute()){
-			return true;
-		}else{return false;
-		}
+              $stmt->execute();
+              var_dump($stmt);
+		//if($stmt->execute()){
+		//	return true;
+		//}else{return false;
+		//}
 	}
 
 
@@ -67,20 +67,23 @@ class Cliente {
        
        
        
-       function Apagar(int $CodCliente)
-       {
-		$query="DELETE FROM cliente WHERE CodCliente=:CodCliente";
-		$stmt = $this->Conn->prepare($query);
-               $stmt->bindValue(':CodCliente', $CodCliente);
-               $stmt->execute();
-               return $stmt->rowCount();
        
-		
-		
-       }
 
 
+	public function Apagar()
+       {
+              echo "Apagar dados<br>";
+              echo "<br>codigo=".$this->CodCliente;
+                     $query="DELETE FROM cliente WHERE CodCliente =?";
+                     $stmt=$this->Conn->prepare($query);
+                     $stmt->bindParam(1,$this->CodCliente);
+                     if($stmt->execute()){
+                            return true;
+                     }else{
+                            return false;
+                     }
 
+	}
 
 
 

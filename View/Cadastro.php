@@ -16,6 +16,7 @@
 </head>
 <body>
 
+<?php include 'menu.php'; ?>
         
   
         <div class="py-5 text-center">

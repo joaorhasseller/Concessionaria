@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,25 +22,21 @@
     <div class="container" id="box">
       <div class="row align-items-center box-row">
       <main class="form-signin w-25 m-auto" id="formulario">
-        <form>
+        <form method="post" action="LoginTela.php" >
          
-          <h1  class="h3 mb-3 fw-normal p-cadastro">Please sign in</h1>
+          <h1  class="h3 mb-3 fw-normal p-cadastro">Login</h1>
       
           <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+            <input type="text" class="form-control" id="floatingInput" name="Usuario" >
+            <label for="floatingInput">Usuario</label>
           </div>
           <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" id="floatingPassword" name="Senha" placeholder="Password">
             <label for="floatingPassword">Password</label>
           </div>
       
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-warning" type="submit">Sign in</button>
+          
+          <input type="submit"  name="Logar" class="w-100 btn btn-lg btn-warning" type="submit"></input>
           
         </form>
       </main>
