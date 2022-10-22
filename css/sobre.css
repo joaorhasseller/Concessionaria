@@ -1,7 +1,9 @@
 
 h1{
- text-align: center;   
-}
+ text-align: left; 
+ margin-left: 20px;
+ }
+
 p{
     text-align: left; 
 
@@ -9,7 +11,18 @@ p{
 
 
 .quemsomos{
-  border: 5px solid black; 
+   width: 940px;
   padding: 10px;
-  margin: 10px; 
+  margin-left: 20px;
 }
+.imagemchave{
+ position: absolute;
+ right: 100px;
+  
+}
+
+.textocorpo{
+  text-align: 20px; 
+  width: 940px;
+  margin-left: 20px;
+  }
