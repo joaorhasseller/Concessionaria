@@ -21,10 +21,10 @@
 
       <main class="principal">
 
-        <div class="container-fluid">
+        <div class="right-fluid">
             <div class="row align-items-center">
                <div class="col-6">
-                  <img style="opacity: 0.2;" src="../img/principal-2.png" alt="">
+                  <img style="opacity: 1;" src="../img/principal-2.png" alt="">
                </div>
 
                <div class="col-6">
