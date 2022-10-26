@@ -45,7 +45,7 @@
 
 .box-img{
     size-adjust: center;
-    background: url(../img/Volkswagen-Kombi.jpg);
+    background: url(https://cdn.motor1.com/images/mgl/7ZL4go/s3/bmw-320i-msport-2021.jpg);
     opacity: 1;
     height: 50%;
     width: 80%;
@@ -55,6 +55,7 @@
     position: absolute;
     right: 10%;
     top: 100px;
+    border-radius: 10px;
    
     
 
@@ -65,7 +66,8 @@
 @media (max-width:992px) {
     .box-img {top: 250px;
     background-size: left;
-    background: url(../img/Volkswagen-Kombi.jpg);
+   background: url(../img/Volkswagen-Kombi.jpg);
+    
     background-position: left;
 }
 }
@@ -89,8 +91,10 @@
 
 width: 80%;
 height: 400px;
+border-radius: 5px;
 background: black;
 margin: 0 30px;
+position: relative;
 
 
 }
@@ -114,10 +118,52 @@ margin: 0 30px;
 
  .fale-com-vendedor-submit{
 
-
+   
    width: 20%;
    padding: 20px;
    position: relative;
    bottom: 25px;
     left: 47%;
+ }
+
+
+ form textarea{
+
+    border-radius: 10px;
+    margin-left: 2px;
+ }
+
+
+ .como-deseja-forms label,legend{
+
+    color:#DBB52D;
+
+
+ }
+ .como-deseja-forms label{
+
+    color: #DBB52D;
+    margin-left: 2px;
+
+
+ }
+
+ .como-deseja-informacao{
+
+    position: absolute;
+    right:30px;
+    top: 130px;
+ }
+
+.infos{
+
+    border: 1px solid black;
+   
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+ .informacoes-carro p{
+
+    border: 1px solid rgba(211, 203, 203, 0.719);
+    text-align: center;
  }

@@ -31,19 +31,91 @@
 
       <section class="fale-com-vendedor">
         <p>Fale com o vendedor</p>
+        <div class="como-deseja-informacao">
+          <legend>Forma de contato</legend>
+          <form action="" method="post" class="como-deseja-forms">
+            <input type="radio" name="whats"  id=""><label for="whats">WhatsApp</label><br>
+            <input type="radio" name="email"  id=""><label for="email">Email</label>
+        </form>
+        </div>
         <div>
           <form action="" method="post">
             <input type="text" name="" id="" class="fale-com-vendedor-input" placeholder="Nome">
             <input type="text" name="" id="" class="fale-com-vendedor-input" placeholder="E-mail">
             <input type="text" name="" id="" class="fale-com-vendedor-input" placeholder="Telefone">
-           <textarea name="" id="" cols="50"  rows="7" placeholder="Digite sua mensagem"></textarea>
-           <input type="submit" class="fale-com-vendedor-submit" value="Enviar">
+           <textarea name="" id="" cols="50"  rows="7" placeholder="Digite sua mensagem" ></textarea>
+           <input type="submit" class="fale-com-vendedor-submit btn btn-warning" value="Enviar">
           </form>
         </div>
       
 
       </section>
-            
+    
+      <section class="container-fluid infos">
+        <div class="row">
+            <p class="col-12">VOKSWAGEM VOYAGE</p>
+        </div>
+       <div class="row informacoes-carro">
+          <div class="col-3">
+            <h5>Cidade</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Ano</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Km</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Câmbio</h5>
+            <p>Texto</p>
+          </div>
+       </div>
+       <div class="row informacoes-carro">
+          <div class="col-3">
+            <h5>Carroceria</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Combustível</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Final de Placa</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Cor</h5>
+            <p>Texto</p>
+          </div>
+       </div>
+       <div class="row informacoes-carro">
+          <div class="col-3">
+            <h5>Aceita aluguel?</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>IPVA Pago?</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Licenciado?</h5>
+            <p>Texto</p>
+          </div>
+          <div class="col-3">
+          <h5>Preço</h5>
+            <p>Texto</p>
+          </div>
+       </div>
+       
+      </div>
+      
+      </section>
+  
+</main>
+
       </main>
 
       <div>
