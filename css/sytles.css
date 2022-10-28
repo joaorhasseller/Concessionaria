@@ -167,3 +167,39 @@ position: relative;
     border: 1px solid rgba(211, 203, 203, 0.719);
     text-align: center;
  }
+
+
+ .info-sobre{
+
+
+   background: #D9D9D9;
+ }
+
+.infos-sobre-carro{
+
+    width: 90%;
+  
+    margin: 0 auto;
+}
+
+
+
+.infos-sobre-carro p{
+
+
+    font-size: 25px;
+}
+
+
+.itens-carro{
+
+
+    display: flex;
+    justify-content: space-around   ;
+    
+}
+
+.itens{
+
+    border: 1px solid black;
+}

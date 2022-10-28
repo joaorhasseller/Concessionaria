@@ -113,6 +113,29 @@
       </div>
       
       </section>
+
+
+      <section class="container info-sobre">
+      <p style="font-weight: bold; font-size: 25px;">Sobre este carro</p>
+      <div class="infos-sobre-carro">
+      <p>Em sua opção intermediária, o voyage Comfortline passa a trazer de série detalhes cromados na cabine, rodas de 15 polegadas, com pneus 195/55 R15 e calotas “Kalahari”, faróis e lanterna de neblina e alterações no visual: a grade dianteira é agora em preto brilhante com inserto cromado.</p>
+      </div>
+     
+      </section>
+
+
+      <section class="container itens">
+        <p>Itens do Veículo</p>
+        <div class="container itens-carro">
+          <p>Airbag</p>
+          <p>Ar quente</p>
+          <p>Computador de bordo</p>
+          <p>Controle de tração</p>
+          <p>Desembaçador traseiro</p>
+          <p>Ar Condicionado</p>
+
+        </div>
+      </section>
   
 </main>
 
